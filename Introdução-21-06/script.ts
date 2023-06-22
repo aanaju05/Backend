@@ -22,7 +22,8 @@ const person: {
 
 //DECLARAÇÃO TIPO ANY
 let result: any;
-result:
+result: "result";
+result: 1903;
 result = true;
 
 
