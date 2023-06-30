@@ -25,7 +25,7 @@ function getNegativeAmount(users: clients[]): clients[] {
 
 function calculateDebts () {
     return users.map(user => {
-        const sumDebts = user.debitos.reduce((acumulator: number, value: number) =>  value ? acumulator += value : 0 , 0);
+        const sumDebts = user.debitos.reduce((acumulator: number, value: number) =>  value ? acumulator += value : 0 , 0);  \\ 0 depois da vírgula: número inicial do acumulador
         user.saldoTotal -= sumDebts;
         user.debitos = [];
     });
