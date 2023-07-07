@@ -1,0 +1,12 @@
+{
+  "name": "aula0506",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercicio17.js",
+  "scripts": {
+    "start": "npx tsc && node ./build/exercicio17.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
